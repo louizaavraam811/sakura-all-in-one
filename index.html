@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Louiza | Business Growth & Financial Clarity</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --frozen-lake: #70d6ff;
+  --rose-kiss: #ff70a6;
+  --tangerine-dream: #ff9770;
+  --royal-gold: #ffd670;
+  --lime-cream: #e9ff70;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #2c2c2c;
+  background: #fafafa;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; border-bottom: 3px solid var(--rose-kiss); display: inline-block; padding-bottom: 5px;}
+h3 { font-size: 1.3rem; }
+
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--rose-kiss);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.hero {
+  background: var(--frozen-lake);
+  text-align: center;
+}
+
+.services, .faq {
+  background: white;
+}
+
+.alt-bg {
+  background: #f0f9ff;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.package, .card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.footer {
+  text-align: center;
+  background: var(--frozen-lake);
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .grid {
+    flex-direction: row;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Grow Your Business Online  While Keeping Your Finances Under Control</h1>
+    <p>I help small businesses and startups manage social media and simplify accounting.</p>
+    <a href="#booking" class="btn">Book Your Free Consultation</a>
+  </div>
+</section>
+
+<!-- VALUE -->
+<section class="alt-bg">
+  <div class="container">
+    <h2>Why Work With Me</h2>
+    <p>Save time by handling both your online presence and financial tasks in one place.</p>
+    <p>Simple, clear support — no jargon.</p>
+    <p>A balance of creativity and financial expertise.</p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="container">
+    <h2>Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Social Media Management</h3>
+        <p>Build a strong online presence that attracts customers.</p>
+      </div>
+      <div class="card">
+        <h3>Accounting Assistance</h3>
+        <p>Keep your finances simple, organized, and stress-free.</p>
+      </div>
+      <div class="card">
+        <h3>E-Procurement Registration</h3>
+        <p>Get registered and ready for new business opportunities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="alt-bg">
+  <div class="container">
+    <h2>Packages</h2>
+    <div class="grid">
+      <div class="package">
+        <h3>Starter</h3>
+        <p>Basic presence and light support.</p>
+        <a href="#booking" class="btn">Book Call</a>
+      </div>
+      <div class="package">
+        <h3>Growth</h3>
+        <p>Scale visibility and stay organized.</p>
+        <a href="#booking" class="btn">Book Call</a>
+      </div>
+      <div class="package">
+        <h3>Full Support</h3>
+        <p>Complete ongoing support.</p>
+        <a href="#booking" class="btn">Book Call</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section>
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hi, I’m Louiza — a social media freelancer and certified accountant.</p>
+    <p>Louiza is an accountant and a social media freelancer, with e-procurement experience.</p>
+    <p>I help businesses grow with clarity and confidence.</p>
+  </div>
+</section>
+
+<!-- BOOKING (Calendly Embed) -->
+<section id="booking" class="alt-bg">
+  <div class="container">
+    <h2>Book Your Free Consultation</h2>
+    <p>Choose a time that works for you:</p>
+
+    <div class="calendly-inline-widget" 
+         data-url="https://calendly.com/YOUR-USERNAME" 
+         style="min-width:320px;height:600px;">
+    </div>
+
+    <script src="https://assets.calendly.com/assets/external/widget.js"></script>
+  </div>
+</section>
+
+<!-- CONTACT FORM (Formspree) -->
+<section>
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Or send a message:</p>
+
+    <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="business" placeholder="Business Type">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <p>Email: louiza.avraam11@gmail.com</p>
+    <p>Tel: 97738863</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="container">
+    <h2>FAQ</h2>
+    <p><strong>Who is this for?</strong><br>Small businesses and startups.</p>
+    <p><strong>Do I need both services?</strong><br>No, flexible support.</p>
+    <p><strong>What happens after the call?</strong><br>Clear next steps.</p>
+    <p><strong>Is it free?</strong><br>Yes, no obligation.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<section class="footer">
+  <div class="container">
+    <h2>Let’s grow your business the smart way</h2>
+    <a href="#booking" class="btn">Book Your Free Consultation</a>
+  </div>
+</section>
+
+</body>
+</html>
